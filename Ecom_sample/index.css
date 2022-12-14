@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(222, 245, 244);
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+a:active{
+    color: #941a1a;
+}
+a:visited{
+    color: blue;
+
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(23, 182, 36);
+}
+.footer{
+    font-size: medium;
+    font-family:  Georgia;
+}
+.had{
+    text-rendering: inherit;
+    font-family: sans-serif;
+    text-shadow: #941a1a;
+    color: rgb(56, 7, 102);
+}
+.icon {
+    font-size: 40px;
+  }
+  .icon {
+    color: rgb(3, 33, 73);
+  }
+  .icon {
+    --ionicon-stroke-width: 16px;
+  }
+  .end{
+    background-color: #e3f2fd;
+    width: 100%;
+    padding-right: 2px;
+    padding-left: 80%;
+    
+  }
+ion-icon{
+    font-size: 40px;
+    border-spacing: 5px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+  a:active ion-icon {
+    color:blue;
+  }
+  a:hover ion-icon{
+ color:  rgb(23, 182, 36) ;
+ cursor: pointer;
+  }
+

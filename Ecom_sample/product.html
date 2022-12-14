@@ -1,0 +1,82 @@
+<html>
+    <head>
+    <title>FRUITS DETAILS</title>
+    <script src="./product.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+    </head>
+    <body onload="filterproduct()">
+      <div id="profile"></div> 
+      <p id="ecom"></p>
+      <div id="header">
+      <nav style="background-color: #1e79bb" class="navbar navbar-expand-lg">
+        <img class="navbar-brand mb-0-h1" src="./1111img/acme.jpg" height="50px" width="70px"><br>
+          <a class="navbar-brand mb-5-h1" href="#"><i class="bi bi-bag-fill"></i></a>
+      <div class="ml-auto form-inline justify-content-center">
+          <a class="nav-link text-black" href="#"><h5>HOME</h5></a>
+          <a class="nav-link text-black" href="#"><i class="bi bi-bag-fill" height="50px" width="5b    5px"></i></a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form><br>
+      </div>
+  </nav></div>
+</div>
+  
+
+
+<img class="bg-image" src="./1111img/friutbanner.jpg" width="100%" height="30%"> 
+
+<div class="container">
+ <div class="card mx-1  border-dark mb-3" style="max-width: 540px;"> 
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./1111img/carrot.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">Carrot</h2>
+        <p class="card-text">add to cart</p>
+        <a href="#" class="">place order</a>
+        <a href="#" class="">KG</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card mx-1  border-dark mb-3" style="max-width: 540px;"> 
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./1111img/carrot.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">Card title</h2>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<label>Kilograms</label>
+<input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Grams: <span id="outputGrams"></span></p>
+
+<script>
+function weightConverter(valNum) {
+document.getElementById("outputGrams").innerHTML=valNum*1000;
+}
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
