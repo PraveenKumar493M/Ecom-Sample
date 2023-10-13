@@ -16,6 +16,7 @@
        {name:"friedrice",category:"nonvegfood",price:100,id:14},
        {name:"chickenrice",category:"nonvegfood",price:100,id:15},
       ];
+
       //  {name:"bringal",category:"veg",price:40,kg:1,id:21},
       //  {name:"carrot",category:"veg",price:70,kg:1,id:22},,
         //   {name:"binapple",category:"fruits",price:60,kg:1,id:5},
