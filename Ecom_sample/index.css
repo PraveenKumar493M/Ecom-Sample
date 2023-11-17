@@ -4,15 +4,13 @@ body{
 
 a{
     cursor: pointer;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 a:active{
     color: #941a1a;
 }
 a:visited{
     color: blue;
-
 }
 a:hover{
     cursor: pointer;
