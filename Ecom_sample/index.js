@@ -3,5 +3,6 @@ function categoryFind(cat){
     window.location.href="./product.html";
     
 }
+
  // console.log(localStorage.setItem("category":cat))
 // document.getElementById("ecom").innerHTML
